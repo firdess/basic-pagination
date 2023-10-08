@@ -1,0 +1,37 @@
+
+button{
+  border: none;
+  background-color: rgb(18, 129, 124);
+  color: white;
+  padding: 5px 10px;
+
+  margin: 2px;
+  cursor: pointer;
+  &:disabled{
+    background-color:rgb(139, 204, 201);
+  }
+
+ 
+}
+.active{
+  background-color: rgb(10, 78, 75);
+    }
+
+.App {
+  font-family: sans-serif;
+ .posts{
+  
+   .post{
+   padding-block: 20px;
+   border: 1px solid lightgray;
+   width: 75%;
+   padding: 20px;
+   &:not(:last-child){
+     border-bottom: 0;
+   }
+    }
+  }
+  .pagination{
+    margin-bottom: 20px;
+  }
+}
